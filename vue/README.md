@@ -73,7 +73,7 @@ manifest.json主要是对生成app的一些配置</br>
 ## 打包
 打开manifest.json，点击发行-原生APP云打包-安卓-使用公共测试证书
 ## 注意
-针对具有刘海屏的手机可以实现一些适配，打开manifest.json中代码视图，找到plus添加以下代码：
+1. 针对具有刘海屏的手机可以实现一些适配，打开manifest.json中代码视图，找到plus添加以下代码：
 ​```javascript
 "statusbar" : {
     "immersed" : "supportedDevice",
@@ -81,6 +81,7 @@ manifest.json主要是对生成app的一些配置</br>
     "background" : "#141526"
 }, 
 ​```
+2. HBuilder有一个不好的地方是每天打包apk有次数限制，还有cordova这个也可以打包
 
 # 资料
 vue：https://cn.vuejs.org/</br>
@@ -88,5 +89,6 @@ vue-cli：https://cli.vuejs.org/zh/</br>
 element-ui：https://element.eleme.cn/#/zh-CN</br>
 HBuilder：https://www.dcloud.io/</br>
 DCloud开发者中心：https://dev.dcloud.net.cn/</br>
+cordova：http://cordova.axuer.com/#getstarted</br>
 雷电模拟器：http://www.ldmnq.com/ldy/bd6000.html?renqun_youhua=2269518&bd_vid=10489724182988819420</br>
 
