@@ -1,6 +1,3 @@
-# About-app
-关于APP
-
 # 软件
 HBuilderX</br>
 vscode</br>
@@ -84,6 +81,7 @@ manifest.json主要是对生成app的一些配置</br>
 2. HBuilder有一个不好的地方是每天打包apk有次数限制，还有cordova这个也可以打包
 
 # 具体项目
+流量监测（具体内容是：监测某一个IP的上传下载）
 
 # 资料
 vue：https://cn.vuejs.org/</br>
