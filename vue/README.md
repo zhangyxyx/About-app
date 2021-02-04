@@ -83,6 +83,8 @@ manifest.json主要是对生成app的一些配置</br>
 ​```
 2. HBuilder有一个不好的地方是每天打包apk有次数限制，还有cordova这个也可以打包
 
+# 具体项目
+
 # 资料
 vue：https://cn.vuejs.org/</br>
 vue-cli：https://cli.vuejs.org/zh/</br>
